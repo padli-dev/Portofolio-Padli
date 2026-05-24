@@ -792,11 +792,6 @@
                     <i class="ti ti-brand-github"></i>
                     GitHub
                 </a>
-
-                <a href="#" class="btn-secondary">
-                    <i class="ti ti-download"></i>
-                    Download CV
-                </a>
             </div>
 
             <div class="stats">
