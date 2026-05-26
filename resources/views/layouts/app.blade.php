@@ -507,18 +507,7 @@
                     </span>
                 </a>
             @endforeach
-
-            {{-- Download CV --}}
-            <button
-                class="w-full relative flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-150 text-white/50 hover:bg-white/[0.06] hover:text-white/80 cursor-pointer">
-                <i class="ti ti-download text-lg flex-shrink-0"></i>
-
-                <span class="sidebar-text text-[13px] font-medium"
-                    :class="sidebarOpen ? 'opacity-100 w-auto' : 'opacity-0 w-0'">
-                    Download CV
-                </span>
-            </button>
-
+            
             {{-- Back To Home --}}
             <a href="/" class="w-full relative flex items-center gap-3 px-3 py-2.5 rounded-lg
     transition-all duration-150 text-white/50 hover:bg-white/[0.06]
