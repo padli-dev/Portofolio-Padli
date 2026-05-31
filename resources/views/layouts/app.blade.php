@@ -459,7 +459,8 @@
                 @php $isActive = request()->routeIs($item['route']); @endphp
                 <a href="{{ route($item['route']) }}"
                     class="relative flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-150 group
-                                                                                                                                                                                                                                                                                                                  {{ $isActive ? 'bg-violbg-blue-500/10 text-blue-400 border border-blue-500/20' : 'text-white/50 hover:bg-white/[0.06] hover:text-white/80' }}">
+                                                                                                                                                                                                   hover:bg-white/[0.06]"
+                    :class="{ 'text-white/70 hover:text-white': !{{ $isActive ? 'true' : 'false' }}, 'text-white': {{ $isActive ? 'true' : 'false' }} }">
                     @if($isActive)
                         <span class="absolute left-0 top-1/2 -translate-y-1/2 w-0.5 h-5 bg-blue-400 rounded-r-full"></span>
                     @endif
@@ -493,7 +494,8 @@
                 @php $isActive = request()->routeIs($item['route']); @endphp
                 <a href="{{ route($item['route']) }}"
                     class="relative flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-150
-                                                                                                                                                                                                                                                                        {{ $isActive ? 'bg-violet-600/20 text-blue-400' : 'text-white/50 hover:bg-white/[0.06] hover:text-white/80' }}">
+                                                                                                                                                                                                   hover:bg-white/[0.06]"
+                    :class="{ 'text-white/70 hover:text-white': !{{ $isActive ? 'true' : 'false' }}, 'text-white': {{ $isActive ? 'true' : 'false' }} }">
 
                     @if($isActive)
                         <span class="absolute left-0 top-1/2 -translate-y-1/2 w-0.5 h-5 bg-blue-400 rounded-r-full"></span>
