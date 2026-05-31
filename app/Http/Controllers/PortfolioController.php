@@ -11,7 +11,7 @@ class PortfolioController extends Controller
         return [
             'name' => 'Padli',
             'initials' => 'P',
-            'title' => 'Full Stack Developer',
+            'title' => 'Front End Developer',
             'university' => 'Universitas Dian Nusantara',
             'major' => 'Teknik Informatika',
             'semester' => '6',
@@ -19,7 +19,7 @@ class PortfolioController extends Controller
             'github' => 'https://github.com/Padlidev',
             'linkedin' => 'https://linkedin.com/in/Padlidev',
             'status' => 'Open to work',
-            'bio' => 'Halo! Saya Padli, mahasiswa Teknik Informatika semester 6 yang passionate dalam membangun web application yang scalable dan elegan. Saya fokus pada ekosistem Laravel untuk backend dan Vue.js untuk frontend. Saya senang belajar teknologi baru dan selalu berusaha menulis kode yang bersih dan terstruktur.',
+            'bio' => 'Halo! Saya Padli, mahasiswa Teknik Informatika semester 6 yang passionate dalam membangun web application yang scalable dan elegan. Saya fokus pada ekosistem Laravel untuk backend dan modern frontend frameworks.',
         ];
     }
 
@@ -253,4 +253,3 @@ class PortfolioController extends Controller
         ]);
     }
 }
-
