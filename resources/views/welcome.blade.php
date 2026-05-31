@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Padli — Full Stack Developer</title>
+    <title>Padli — Front End Developer</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -779,7 +779,7 @@
                 aplikasi web menggunakan Laravel, Vue.js, Tailwind CSS, dan MySQL dengan
                 fokus pada tampilan yang responsif, performa yang optimal, serta clean code.
                 Saya juga senang mempelajari teknologi baru dan terus mengembangkan skill
-                di bidang Full Stack Development.
+                di bidang Front End Development.
             </p>
 
             <div class="hero-btns">
@@ -999,7 +999,7 @@
 
                 <a href="#" class="btn-secondary">
                     <i class="ti ti-brand-github"></i>
-                    GitHub
+                    Lihat Portfolio
                 </a>
             </div>
 
@@ -1009,27 +1009,19 @@
 
     <!-- ===== FOOTER ===== -->
     <footer>
-
-        <p>
-            © 2026 Padli
-        </p>
+        <p>&copy; 2024 Padli - Front End Developer. All rights reserved.</p>
 
         <div class="socials">
-
-            <a href="https://www.instagram.com/padli23_" target="_blank">
+            <a href="https://www.instagram.com" target="_blank">
                 <i class="ti ti-brand-instagram"></i>
             </a>
-
-            <a href="https://www.linkedin.com/in/padli-padli-36336b3b2" target="_blank">
+            <a href="https://www.linkedin.com" target="_blank">
                 <i class="ti ti-brand-linkedin"></i>
             </a>
-
-            <a href="https://github.com/username_github_kamu" target="_blank">
+            <a href="https://github.com" target="_blank">
                 <i class="ti ti-brand-github"></i>
             </a>
-
         </div>
-
     </footer>
 
 </body>
